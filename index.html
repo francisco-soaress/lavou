@@ -867,6 +867,7 @@
         </div>
 
         <div class="form">
+
           <div id="sendmessage">Sua mensagem foi enviada. Obrigado!</div>
           <div id="errormessage"></div>
           <form action="" method="post" role="form" class="contactForm" netlify>
@@ -881,65 +882,70 @@
                 <input type="email" class="form-control" name="email" id="email" placeholder="Seu e-mail" required data-rule="email" data-msg="Por favor digite um e-mail válido" />
                 <div class="validation"></div>
               </div>
-            </div>
+            
             <div class="form-group col-md-6">
-              <input type="tel" name="telefone" class="form-control" id="tel" placeholder="Seu telefone" required data-rule="minlen:11" data-msg="Por favor digite no mínimo 11 números" />
+              <input type="tel" class="form-control" name="telefone" id="tel" placeholder="Seu telefone" required data-rule="minlen:11" data-msg="Por favor digite no mínimo 11 números" />
               <div class="validation"></div>
             </div>
-            <label class="col-md-6">Escolha os itens que serão lavados:</label><br>
 
+          </div>
+           
+            <label class="col-md-6 formlist"><strong>Escolha os itens que serão lavados e suas quantidades:</strong></label><br><br>
 
+            <div class="formlist">
             <label class="col-md-2">Bermuda</label>
-            <input type="number" name="bermuda" id="item" checked/>
+            <input type="number" name="bermuda" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
             <div class="validation"></div>
 
             <label class="col-md-2">Blusas leves</label>
-            <input type="number" name="blusasleves" id="item" checked/>
+            <input type="number" name="blusasleves" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
             <div class="validation"></div>
 
             <label class="col-md-2">Blusas moletom</label>
-            <input type="number" name="blusasmoletom" id="item" checked/>
+            <input type="number" name="blusasmoletom" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
             <div class="validation"></div>
 
             <label class="col-md-2">Calça jeans</label>
-            <input type="number" name="calcajeans" id="item" checked/>
+            <input type="number" name="calcajeans" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
             <div class="validation"></div>
 
             <label class="col-md-2">Calça moletom</label>
-            <input type="number" name="calcamoletom" id="item" checked/>
+            <input type="number" name="calcamoletom" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
             <div class="validation"></div>
 
             <label class="col-md-2">Camisa</label>
-            <input type="number" name="camisa" id="item" checked/>
+            <input type="number" name="camisa" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
             <div class="validation"></div>
             
             <label class="col-md-2">Camiseta</label>
-            <input type="number" name="camiseta" id="item" checked/>
+            <input type="number" name="camiseta" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
             <div class="validation"></div>
 
             <label class="col-md-2">Jaqueta/Casaco</label>
-            <input type="number" name="jaquetacasaco" id="item" checked/>
+            <input type="number" name="jaquetacasaco" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
             <div class="validation"></div>
 
             <label class="col-md-2">Saia</label>
-            <input type="number" name="saia" id="item" checked/>
+            <input type="number" name="saia" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
             <div class="validation"></div>
 
             <label class="col-md-2">Shorts</label>
-            <input type="number" name="shorts" id="item" checked/>
+            <input type="number" name="shorts" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
             <div class="validation"></div>
 
             <label class="col-md-2">Vestido</label>
-            <input type="number" name="vestido" id="item" checked/>
+            <input type="number" name="vestido" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
             <div class="validation"></div><br>
 
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5"  data-msg="Por favor escreva algo para nós" placeholder="Se necessário, deixe suas observações"></textarea>
+              <textarea class="form-control" name="message" rows="5" placeholder="Se necessário, deixe suas observações"></textarea>
               <div class="validation"></div>
             </div>
             <div class="text-center"><button type="submit">Enviar Orçamento</button></div>
           </form>
         </div>
+        </div>
+        
 
 
 
