@@ -94,6 +94,7 @@ jQuery(document).ready(function($) {
     if( ! action ) {
       action = 'contactform/contactform.php';
     }
+    const newLocal = "#sendmessage";
     $.ajax({
       type: "POST",
       url: action,
@@ -101,7 +102,7 @@ jQuery(document).ready(function($) {
       success: function(msg) {
         // alert(msg);
         if (msg == 'OK') {
-          $("#sendmessage").addClass("show");
+          $(newLocal).addClass("show");
           $("#errormessage").removeClass("show");
           $('.contactForm').find("input, textarea").val("");
         } else {
