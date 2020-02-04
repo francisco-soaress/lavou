@@ -117,3 +117,15 @@ jQuery(document).ready(function($) {
   });
 
 });
+
+
+function confirma() {
+
+	var resp = confirm("Mensagem enviada com sucesso, retornaremos imediatamente");
+
+	if (resp == true) 
+
+		document.location.href = "https://lavou.app";
+
+}
+
