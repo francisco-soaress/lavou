@@ -1,100 +1,26 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="utf-8">
-  <title>Lavou - A revolução da lavagem</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
-  <meta name="google-site-verification" content="zV_VXrx404wh2R1xsR-rh8RtdXAl69lgiOeWxl7rRQE"/>
-
-  <!-- Favicons -->
-  <link href="img/faviconlavou.jpg" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!--==========================
-    Header
-  ============================-->
-  <header id="header">
-    <div class="container-fluid">
-
-      <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">LavouApp</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Início</a></li>
-          <li class="menu-has-children"><a href="">Empresa</a>
-          <ul>
-            <li><a href="#">Sobre nós</a></li>
-            <li><a href="#">Como funciona</a></li>
-            <li><a href="#">Central de Ajuda</a></li>
-            <li><a href="#">Newsroom</a></li>
-          </ul>
-        </li>
-          <li><a href="#contact">Faça seu orçamento</a></li>
-          <!--
-          <li><a href="#portfolio">Portfolio</a></li>
-          -->
-         <!-- <li class="menu-has-children"><a href="">Drop Down</a>
-
-          </li> -->
-         <!--
-          <li><a href="#contact">Contato</a></li>
-        </ul> -->
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
-
-  <!--==========================
-    Intro Section
-  ============================-->
-  <section id="intro">
+<section id="intro">
     <div class="intro-container">
-      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+        <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
-        <ol class="carousel-indicators"></ol>
+            <ol class="carousel-indicators"></ol>
 
-        <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/heart.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>A revolução da lavagem na palma da sua mão.</h2>
-                <p>Lavar suas roupas nunca foi tão fácil e tão barato.</p>
-              <a href="#services" class="btn-get-started scrollto">Faça seu orçamento e se surpreenda.</a>
-              </div>
-            </div>
-          </div>
-
-
+                <div class="carousel-item active">
+                    <div class="carousel-background"><img src="img/heart.jpg" alt=""></div>
+                    <div class="carousel-container">
+                        <div class="carousel-content">
+                            <h2>A revolução da lavagem na palma da sua mão.</h2>
+                            <p>Lavar suas roupas nunca foi tão fácil e tão barato.</p>
+                            <a href="#services" class="btn-get-started scrollto">Faça seu orçamento e se surpreenda.</a>
+                        </div>
+                    </div>
+                </div>
 
 
-          <!--
+
+
+                <!--
           <div class="carousel-item">
             <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
             <div class="carousel-container">
@@ -145,7 +71,7 @@
 
       -->
 
-        <!--
+                <!--
         <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -157,9 +83,9 @@
         </a>
       -->
 
-      </div>
-    </div>
-  </section><!-- #intro -->
+            </div>
+        </div>
+</section><!-- #intro -->
 
 <!--
 
@@ -167,11 +93,11 @@
 
   -->
 
-    <!--==========================
+<!--==========================
       Featured Services Section
     ============================-->
 
-    <!--
+<!--
 
     <section id="featured-services">
       <div class="container">
@@ -200,19 +126,19 @@
     </section>
 
   -->
-    
-    <!-- #featured-services -->
 
- 
+<!-- #featured-services -->
 
 
-    <!--==========================
+
+
+<!--==========================
       About Us Section
     ============================
   
   -->
 
-  <!--
+<!--
     <section id="about">
       <div class="container">
 
@@ -270,40 +196,40 @@
   -->
 
 
-    <!-- #about -->
+<!-- #about -->
 
-    <!--==========================
+<!--==========================
       Services Section
     ============================
   
   -->
 
-  
-    <section id="services">
-      <div class="container">
+
+<section id="services">
+    <div class="container">
 
         <header class="section-header wow fadeInUp">
-          <h3>Como funciona</h3>
+            <h3>Como funciona</h3>
         </header>
 
         <div class="row">
 
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-cart-outline"></i></div>
-            <h4 class="title"><a href="">Faça seu pedido</a></h4>
-            <p class="description">Selecione as roupas que serão lavadas</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-location-outline"></i></div>
-            <h4 class="title"><a href="">Quando e onde você quiser</a></h4>
-            <p class="description">Escolha a hora e o local de retirada e entrega</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-game-controller-a-outline"></i></div>
-            <h4 class="title"><a href="">Apenas relaxe</a></h4>
-            <p class="description">Nós lavamos e você aproveita seu tempo livre</p>
-          </div>
-          <!--
+            <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                <div class="icon"><i class="ion-ios-cart-outline"></i></div>
+                <h4 class="title"><a href="">Faça seu pedido</a></h4>
+                <p class="description">Selecione as roupas que serão lavadas</p>
+            </div>
+            <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                <div class="icon"><i class="ion-ios-location-outline"></i></div>
+                <h4 class="title"><a href="">Quando e onde você quiser</a></h4>
+                <p class="description">Escolha a hora e o local de retirada e entrega</p>
+            </div>
+            <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                <div class="icon"><i class="ion-ios-game-controller-a-outline"></i></div>
+                <h4 class="title"><a href="">Apenas relaxe</a></h4>
+                <p class="description">Nós lavamos e você aproveita seu tempo livre</p>
+            </div>
+            <!--
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
             <h4 class="title"><a href="">Links Patrocinados</a></h4>
@@ -329,16 +255,16 @@
 
     </section>
     -->
-    
-    <!-- #services -->
 
-    <!--==========================
+            <!-- #services -->
+
+            <!--==========================
       Call To Action Section
     ============================
   
   -->
 
-  <!--
+            <!--
     <section id="call-to-action" class="wow fadeIn">
       <div class="container text-center">
         <h3>Call To Action</h3>
@@ -348,13 +274,13 @@
     </section>
     
   -->
-    <!-- #call-to-action -->
+            <!-- #call-to-action -->
 
-    <!--==========================
+            <!--==========================
       Skills Section
     ============================-->
-    
-    <!--
+
+            <!--
     <section id="skills">
       <div class="container">
 
@@ -395,11 +321,11 @@
     </section>
 
   -->
-    <!--==========================
+            <!--==========================
       Facts Section
     ============================-->
 
-    <!--
+            <!--
     <section id="facts"  class="wow fadeIn">
       <div class="container">
 
@@ -440,14 +366,14 @@
     </section>
     
     -->
-  
-  <!-- #facts -->
 
-    <!--==========================
+            <!-- #facts -->
+
+            <!--==========================
       Portfolio Section
     ============================-->
 
-      <!--
+            <!--
     <section id="portfolio"  class="section-bg" >
       <div class="container">
 
@@ -487,7 +413,7 @@
           </div>
         -->
 
-          <!--
+            <!--
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
@@ -613,18 +539,18 @@
 
       -->
 
-      </div>
-    </section>
-    
-    
-    
-    <!-- #portfolio -->
+        </div>
+</section>
 
-    <!--==========================
+
+
+<!-- #portfolio -->
+
+<!--==========================
       Clients Section
     ============================-->
 
-      <!--
+<!--
 
     <section id="clients" class="wow fadeInUp">
       <div class="container">
@@ -645,17 +571,17 @@
         </div> 
 
       </div> -->
-    </section>
+</section>
 
-  
-    
-    <!-- #clients -->
 
-    <!--==========================
+
+<!-- #clients -->
+
+<!--==========================
       Clients Section
     ============================-->
 
-    <!--
+<!--
 
     <section id="testimonials" class="section-bg wow fadeInUp">
       <div class="container">
@@ -728,13 +654,13 @@
     
   -->
 
-    <!-- #testimonials -->
+<!-- #testimonials -->
 
-    <!--==========================
+<!--==========================
       Team Section
     ============================-->
 
-     <!-- 
+<!-- 
 
     <section id="team">
       <div class="container">
@@ -823,25 +749,25 @@
     </section>
     
     <!- teste na branch  -->
-    
-    <!-- #team -->
+
+<!-- #team -->
 
 
-    <!--==========================
+<!--==========================
       Contact Section
     ============================-->
-    <section id="contact" class="section-bg wow fadeInUp">
-      <div class="container">
+<section id="contact" class="section-bg wow fadeInUp">
+    <div class="container">
 
         <div class="section-header">
-          <h3>Faça seu orçamento</h3>
+            <h3>Faça seu orçamento</h3>
         </div>
 
         <div class="row contact-info">
 
 
-          
-          <!--
+
+            <!--
                       <div class="col-md-4">
             
             <div class="contact-address">
@@ -852,208 +778,108 @@
           </div>
         -->
 
-          <div class="col-md-6">
-            <div class="contact-phone">
-              <i class="ion-social-whatsapp-outline"></i>
-              <h3>WhatsApp</h3>
-              <p><a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=%225511983823841" 
-                target="_blank">+55 11 98382-3841</a></p>
+            <div class="col-md-6">
+                <div class="contact-phone">
+                    <i class="ion-social-whatsapp-outline"></i>
+                    <h3>WhatsApp</h3>
+                    <p><a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=%225511983823841" target="_blank">+55 11 98382-3841</a></p>
+                </div>
             </div>
-          </div>
 
-          <div class="col-md-6">
-            <div class="contact-email">
-              <i class="ion-ios-email-outline"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:contato@lavou.app">contato@lavou.app</a></p>
+            <div class="col-md-6">
+                <div class="contact-email">
+                    <i class="ion-ios-email-outline"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:contato@lavou.app">contato@lavou.app</a></p>
+                </div>
             </div>
-          </div>
 
         </div>
 
         <div class="form">
 
-          <div id="sendmessage">Sua mensagem foi enviada. Obrigado!</div> 
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm" netlify>
-            <input type=hidden name="destino" value="lucas.alexandregdias@gmail.com">
-            
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome"  required data-rule="minlen:4" data-msg="Por favor digite no mínimo 4 caracteres" />
-                <div class="validation"></div>
-              </div>
-              
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Seu e-mail" required data-rule="email" data-msg="Por favor digite um e-mail válido" />
-                <div class="validation"></div>
-              </div>
-            
-            <div class="form-group col-md-6">
-              <input type="tel" class="form-control" name="telefone" id="tel" placeholder="Seu telefone" required data-rule="minlen:11" data-msg="Por favor digite no mínimo 11 números" />
-              <div class="validation"></div>
-            </div>
+            <div id="sendmessage">Sua mensagem foi enviada. Obrigado!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm" netlify>
+                <input type=hidden name="destino" value="lucas.alexandregdias@gmail.com">
 
-          </div>
-           
-            <label class="col-md-6 formlist"><strong>Escolha os itens que serão lavados e suas quantidades:</strong></label><br><br>
+                <div class="form-group col-md-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" required data-rule="minlen:4" data-msg="Por favor digite no mínimo 4 caracteres" />
+                    <div class="validation"></div>
+                </div>
 
-            <div class="formlist">
+                <div class="form-group col-md-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Seu e-mail" required data-rule="email" data-msg="Por favor digite um e-mail válido" />
+                    <div class="validation"></div>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <input type="tel" class="form-control" name="telefone" id="tel" placeholder="Seu telefone" required data-rule="minlen:11" data-msg="Por favor digite no mínimo 11 números" />
+                    <div class="validation"></div>
+                </div>
+
+        </div>
+
+        <label class="col-md-6 formlist"><strong>Escolha os itens que serão lavados e suas quantidades:</strong></label><br><br>
+
+        <div class="formlist">
             <label class="col-md-2">Bermuda</label>
-            <input type="number" name="bermuda" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
+            <input type="number" name="bermuda" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade" />
             <div class="validation"></div>
 
             <label class="col-md-2">Blusas leves</label>
-            <input type="number" name="blusasleves" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
+            <input type="number" name="blusasleves" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade" />
             <div class="validation"></div>
 
             <label class="col-md-2">Blusas moletom</label>
-            <input type="number" name="blusasmoletom" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
+            <input type="number" name="blusasmoletom" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade" />
             <div class="validation"></div>
 
             <label class="col-md-2">Calça jeans</label>
-            <input type="number" name="calcajeans" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
+            <input type="number" name="calcajeans" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade" />
             <div class="validation"></div>
 
             <label class="col-md-2">Calça moletom</label>
-            <input type="number" name="calcamoletom" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
+            <input type="number" name="calcamoletom" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade" />
             <div class="validation"></div>
 
             <label class="col-md-2">Camisa</label>
-            <input type="number" name="camisa" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
+            <input type="number" name="camisa" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade" />
             <div class="validation"></div>
-            
+
             <label class="col-md-2">Camiseta</label>
-            <input type="number" name="camiseta" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
+            <input type="number" name="camiseta" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade" />
             <div class="validation"></div>
 
             <label class="col-md-2">Jaqueta/Casaco</label>
-            <input type="number" name="jaquetacasaco" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
+            <input type="number" name="jaquetacasaco" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade" />
             <div class="validation"></div>
 
             <label class="col-md-2">Saia</label>
-            <input type="number" name="saia" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
+            <input type="number" name="saia" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade" />
             <div class="validation"></div>
 
             <label class="col-md-2">Shorts</label>
-            <input type="number" name="shorts" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
+            <input type="number" name="shorts" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade" />
             <div class="validation"></div>
 
             <label class="col-md-2">Vestido</label>
-            <input type="number" name="vestido" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade"/>
+            <input type="number" name="vestido" id="item" min=0 max=1000000000 placeholder="&nbsp;Quantidade" />
             <div class="validation"></div><br>
 
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" placeholder="Se necessário, deixe suas observações"></textarea>
-              <div class="validation"></div>
+                <textarea class="form-control" name="message" rows="5" placeholder="Se necessário, deixe suas observações"></textarea>
+                <div class="validation"></div>
             </div>
             <div class="text-center"><button type="submit" class="button" onclick="confirma()">Enviar Orçamento</button></div>
-          </form>
-        </div>
-        </div>
-        
-
-
-
-      </div>
-    </section><!-- #contact -->
-
-  </main>
-
-  <!--==========================
-    Footer
-  ============================-->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 footer-info">
-            <h3>LavouApp</h3>
-            
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Links úteis</h4>
-            <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Sobre nós</a></li>
-              <!--<li><i class="ion-ios-arrow-right"></i> <a href="#services">Serviços</a></li>-->
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Termos de Serviços</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Política de Privacidade</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Fale Conosco</h4>
-            <p>
-              <strong>WhatsApp:</strong> +55 11 98382 3841<br>
-              <strong>E-mail:</strong> contato@lavou.app<br>
-            </p>
-
-            <div class="social-links">
-             <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <!-- <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a> -->
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
-
-          </div>
-
-          <!--
-
-          <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Nossa Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit"  value="Subscribe">
             </form>
-          </div>
-
-        -->
-
         </div>
-      </div>
     </div>
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright 2020, <strong>Lavou</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-        -->
-        Designed by <a>Lavou Dev Team</a>
-      </div>
+
+
+
     </div>
-  </footer><!-- #footer -->
+</section><!-- #contact -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <!-- Uncomment below i you want to use a preloader -->
-  <!-- <div id="preloader"></div> -->
-
-  <!-- JavaScript Libraries --> 
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
-
-</body>
-</html>
+<!-- </main> -->
