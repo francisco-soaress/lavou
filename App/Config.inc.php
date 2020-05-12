@@ -2,7 +2,7 @@
 
 /* DEFININDO CONSTANTES DE CAMINHO DO SERVIDOR */
 if ($_SERVER['HTTP_HOST'] == "localhost"):
-    define('BASE', 'https://localhost/_sites/web-fr/lavou/');
+    define('BASE', 'https://localhost/sites/web-fr/lavou/');
 else:
     define('BASE', 'https://www.lavou.com.br/');
 endif;

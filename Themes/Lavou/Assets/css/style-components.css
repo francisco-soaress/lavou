@@ -13,6 +13,7 @@
     --darkblue: #356bc5;
     --lavoublue: #00a0c6;
     --lavoudarkblue: #047d9a;
+    --lavoublack: #000;
 }
 
 /* ================================= */
@@ -22,6 +23,7 @@
 .bg-lightgray{background: var(--lightgray);}
 .bg-lavoublue{background: var(--lavoublue);}
 .bg-lavoudarkblue{background: var(--lavoudarkblue);}
+.bg-lavoublack{background: var(--lavoublack);}
 
 /* =============================== */
 /* ========== BTN-FORMs ========== */
@@ -106,74 +108,6 @@ img{max-width: 100%; border: 0;}
 
 
 .baseline-font{vertical-align: baseline;}
-
-/* =========================== */
-/* ========== ICONS ========== */
-/* =========================== */
-@font-face {
-  font-family: "lavou";
-  src:url("icon/lavou.eot");
-  src:url("icon/lavou.eot?#iefix") format("embedded-opentype"),
-    url("icon/lavou.woff") format("woff"),
-    url("icon/lavou.ttf") format("truetype"),
-    url("icon/lavou.svg#lavou") format("svg");
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-[data-icon]:before {
-  font-family: "lavou" !important;
-  content: attr(data-icon);
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  font-family: "lavou" !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;  
-  margin-right: .4em;
-}
-.icon-notext:before{margin-right: 0 !important;}
-
-.icon-lock:before {
-  content: "\62";
-}
-.icon-user:before {
-  content: "\63";
-}
-.icon-shield:before {
-  content: "\64";
-}
-.icon-mail:before {
-  content: "\61";
-}
-.icon-facebook:before {
-  content: "\65";
-}
-.icon-instagram:before {
-  content: "\66";
-}
-.icon-linkedin:before {
-  content: "\67";
-}
-
-.icons-fontawesome{vertical-align: baseline; font-size:0.95em; color: #ffcc00; margin-right: 8px;}
 
 /*bt-icons-small*/
 .bt-icons-small{

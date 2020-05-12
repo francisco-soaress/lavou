@@ -5,7 +5,7 @@
             <div class="col-lg-4 footer_p_top">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="footer_menu_titulo">Links Úteis</div>
+                        <div class="footer_menu_titulo">Empresa</div>
                         <ul>
                             <li><a href="##">Sobre nós</a></li>
                             <li><a href="##">Como funciona</a></li>

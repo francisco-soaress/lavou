@@ -3,16 +3,46 @@
 /* ============== */
 .nav_menu li{ padding: 0 10px; text-transform: uppercase;}
 .menu_divisor{width: 1px; min-height: 35px; background: #fff; margin: 0 15px;}
-.icon_menu_login{color: #fff; font-size: 1.8em !important; transition: all 0.3s ease; padding: 0 5px;}
+.icon_menu_login{color: #000; font-size: 1.8em !important; transition: all 0.3s ease; padding: 0 5px;}
 .icon_menu_login:hover{color: #9ec0fa;}
-.nav_menu a{font-size: 0.875em; color: #fff; margin: 1%;}
-.nav_menu .login{font-size: 0.875em; color: #fff;}
-.nav_menu .login:hover{color: var(--lavoublue);}
+.nav_menu a{font-size: 0.875em; color: #000;}
+.nav_menu .login{font-size: 0.875em; color: #000;}
+.nav_menu .login:hover{color: #fff;}
 .nav_menu a:hover{text-decoration: none;}
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
 }
-/* .nav_menu p a{color: #fff;} */
+.nav_menu .btn-outline-dark {
+    border-color: #000;
+}
+.nav_menu .btn-outline-dark:hover {
+    background: #000;
+}
+
+.nav_menu .dropdown-menu {
+    background-color: #000;
+    padding: 0;    
+}
+.nav_menu .dropdown-item {
+    color: #fff;
+    padding: 10px 15px; 
+    border-left: 2px solid var(--lavoublue);   
+}
+.nav_menu .dropdown-item:hover {
+    background: var(--lavoublue);
+}
+
+/* menu-humburge */
+.navbar-dark .navbar-toggler {
+    color: #000;
+    border-color: #000;
+    background: #000;
+}
+.navbar-toggler-icon{
+    color: #000;
+    
+}
+
 
 /* ================================== */
 /* ==== FORMS LOGIN AND REGISTER ==== */
@@ -43,10 +73,10 @@
 /* ================ */
 /* ==== FOOTER ==== */
 /* ================ */
-.footer_menu_titulo{font-size: 1em; color: #fff; font-weight: 700; text-transform: uppercase;}
-.footer_menu_icon{font-size: 0.75em; color: #fff; font-weight: 700; text-transform: uppercase; margin-bottom: 20px;}
+.footer_menu_titulo{font-size: 1.1em; color: #000; font-weight: 700; text-transform: uppercase;}
+.footer_menu_icon{font-size: 0.75em; color: #000; font-weight: 700; text-transform: uppercase; margin-bottom: 20px;}
 .footer_desc ul{margin: 0; padding: 0; list-style: none; margin-top: 15px;}
-.footer_desc ul li a{font-size: 0.9em; color: #fff; font-weight: 300;}
+.footer_desc ul li a{font-size: 0.9em; color: #000; font-weight: 300;}
 .footer_desc ul li a:hover{text-decoration: underline;}
 .footer_p30_l{padding-left: 30px;}
 .footer_p60_l{padding-left: 60px;}

@@ -1,6 +1,6 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-lavoublue">
-        <div class="container">
+        <div class="container nav_menu_humburguer">
             <h1 class="d-none">Lavou - A revolução da lavagem</h1>
             <a href="<?= $base; ?>" class="navbar-brand">
                 <img class="img-100" src="<?= $path_img; ?>/lavou-a-revolucao-da-lavagem.png" alt="Lavou - A revolução da lavagem" title="Lavou - A revolução da lavagem">
@@ -13,7 +13,14 @@
             <div class="collapse navbar-collapse nav_menu" id="nav-menu-login">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="<?= $base; ?>">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="##">Empresa</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Empresa</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Sobre nós</a>
+                            <a class="dropdown-item" href="#">Como funciona</a>
+                            <a class="dropdown-item" href="#">Newsroom</a>
+                        </div>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="##">Contato</a></li>
                 </ul>
                 <!-- <div class="menu_divisor"></div> -->
@@ -21,7 +28,7 @@
                     <div class="icon_menu_login icon-user icon-notext"></div>
                     <p>Olá, faça seu <strong>login</strong><br> <span>ou <strong>cadastre-se</strong></span></p>
                 </a> -->
-                <a class="btn btn-outline-light btn-lg login" href="<?= $base; ?>login">                    
+                <a class="btn btn-outline-dark btn-lg login" href="<?= $base; ?>login">
                     Fazer <strong>login</strong> <span>ou <strong>cadastre-se</strong></span>
                 </a>
                 <!-- <span class="icon_menu_login icon-user icon-notext"></span>                

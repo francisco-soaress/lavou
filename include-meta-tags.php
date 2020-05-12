@@ -18,6 +18,7 @@
 
 <!-- styles lavou -->
 <link href="<?= $theme_path_css; ?>/style-components.css" rel="stylesheet">
+<link href="<?= $theme_path_css; ?>/icons-lavou.css" rel="stylesheet">
 <link href="<?= $theme_path_css; ?>/style.css" rel="stylesheet">
 <link href="<?= $theme_path_css; ?>/fontawesome/css/all.css" rel="stylesheet">
 
