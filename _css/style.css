@@ -17,6 +17,7 @@
     font-weight: 300;
     margin: 15px 0 60px 0;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+    
 }
 .header h2{
     font-size: 2.6em; 
@@ -35,8 +36,28 @@
 .cadeado{font-size: 0.7em; color: #fff; font-weight: 300; text-transform: uppercase; margin: 15px 0 15px 0;}
 .cadeado .icon_webinar{ color: #ffcc00; font-size: 1.3em;}
 
-.contato_form input,
-.contato_form textarea
+.contato_form strong{
+    display: block;
+    text-align: left;
+    font-size: 1em;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 15px;
+    
+}
+.contato_form span{
+    text-align: left;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 400;
+    
+}
+
+
+
+.contato_form .input_campo,
+.contato_form textarea,
+.contato_form select
 {
     width: 100%;
     border: none;    
@@ -60,13 +81,37 @@
     -webkit-transition: all 0.2s ease;
     transition: all 0.3s ease;
 }
+/* .contato_form select{color: #333;} */
 ::-webkit-input-placeholder{color: #fff; font-weight: 300;}
 ::-moz-input-placeholder{color: #fff; font-weight: 300;}
 ::-ms-input-placeholder{color: #fff; font-weight: 300;}
 .contato_form input:hover,
-.contato_form textarea:hover{border-bottom:#fff 1px solid; border-left: #fff 1px solid; }
+.contato_form textarea:hover{
+    border-bottom:#fff 1px solid; 
+    border-left: #fff 1px solid; 
+}
+.contato_form select:hover, .contato_form select:focus{
+    color: #333;
+    border-bottom:#fff 1px solid; 
+    border-left: #fff 1px solid; 
+}
 .contato_form input:focus,
 .contato_form textarea:focus{border-bottom:#fff 1px solid; border-left: #fff 1px solid;}
+
+.campo_checkbox{
+    text-align: left; 
+    width: 100px;
+    float: left;
+    margin-bottom: 30px;
+}
+.campo_checkbox input[type=checkbox]{ 
+    display:inline-block;
+    height:15px;
+    width: 15px;
+    margin-right: 5px;
+    
+}
+
 
 .contato_form .btn{
     width: 100%;
