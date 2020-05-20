@@ -137,6 +137,110 @@
 .contato_form .btn:hover{border-bottom: 2px #333 solid; color: #fff; }
 
 
+/* ==== FORMULARIO ORÇAMENTO ==== */
+.contato_form_orcamento{width: 100%; max-width: 750px;  margin: 0 auto;}
+
+.contato_form_orcamento strong{
+    display: block;
+    text-align: left;
+    font-size: 1em;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.contato_form_orcamento span{    
+    text-align: left;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 400;    
+}
+.contato_form_orcamento .label_form{    
+    text-align: left;
+    font-size: 1em;
+    color: #1f1f1f;
+    font-weight: bold;    
+}
+.contato_form_orcamento label{width: 100%; padding: 0 10px; float: left;}
+
+.contato_form_orcamento .input_orcamento,
+.contato_form_orcamento textarea,
+.contato_form_orcamento select
+{
+    width: 100%;
+    border: #333 1px solid;    
+    padding: 10px;
+    float: left;    
+    text-align: left;
+    font-size: 0.875em;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 15px;
+    background: none;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.3s ease;
+}
+/* .contato_form select{color: #333;} */
+::-webkit-input-placeholder{color: #fff; font-weight: 300;}
+::-moz-input-placeholder{color: #fff; font-weight: 300;}
+::-ms-input-placeholder{color: #fff; font-weight: 300;}
+.contato_form_orcamento input:hover,
+.contato_form_orcamento textarea:hover{
+    border:#fff 1px solid; 
+}
+.contato_form_orcamento select:hover, .contato_form_orcamento select:focus{
+    color: #333;
+    border:#fff 1px solid; 
+}
+.contato_form_orcamento input:focus,
+.contato_form_orcamento textarea:focus{border-bottom:#fff 1px solid;border: #fff 1px solid;}
+
+.contato_form_orcamento .campo_checkbox_radio{
+    text-align: left; 
+    width: 100%;
+    float: left;
+    margin-bottom: 2px;
+    font-size: 0.9em;    
+}
+.contato_form_orcamento .campo_checkbox_radio input[type=radio]{ 
+    display:inline-block;
+    height:15px;
+    width: 15px;
+    margin-right: 2px;
+    
+}
+
+
+.contato_form_orcamento .btn{
+    width: 100%;
+    border:none;    
+    background-color:#000;
+    padding: 14px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2em; 
+    cursor: pointer;
+    color: #fff;
+    border-bottom: 4px #333 solid;
+    margin: 30px 0;
+    
+    
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.contato_form_orcamento .btn:hover{border-bottom: 2px #333 solid; color: #fff; }
+
+
 
 
 /* ================ */
