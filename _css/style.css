@@ -241,6 +241,34 @@
 .contato_form_orcamento .btn:hover{border-bottom: 2px #333 solid; color: #fff; }
 
 
+/* ==== Toggle ==== */
+.content_toggle{
+    display: none;    
+}
+
+.form_toggle h3{
+    /* max-width: 730px; */
+    width: 97.5%;
+    margin: 10px auto;
+    background: #0288a8;
+    padding: 15px;
+    font-size: 1.2em;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;  
+    position: relative;
+    /* -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; */
+      
+}
+.form_toggle h3 span{
+    position: absolute;      
+    right: 10px;
+}
+.form_toggle h3 .icon-pointer{
+    color: #fff;
+}
 
 
 /* ================ */
@@ -263,5 +291,14 @@
 
     /* ==== form-header */
     .contato_form{width: 100%;}
-    .contato_form .btn{padding: 14px; font-size: 1.4em;}    
+    .contato_form .btn{padding: 14px; font-size: 1.4em;}   
+    
+    /* ==== toggle */
+    .form_toggle h3{    
+        font-size: 0.875em;  
+        
+    }
+    .form_toggle h3 span{   
+        right: 2px;
+    }
 }
